@@ -46,10 +46,7 @@ const Login = () => {
       animate={{ opacity: 1, scale: 1 }}    // Fade in and return to normal scale
       transition={{ duration: 1 }}          // Animation duration
       className="flex flex-col justify-center items-center h-screen bg-gray-900 bg-cover bg-center"
-      style={{
-        backgroundImage:
-          "url('https://img.freepik.com/premium-photo/futuristic-white-electric-car-charging-sleek-station-minimalist-icy-blue-setting-symbolizing-cuttingedge-ecofriendly-technology-sustainable-energy-innovation_1006475-6212.jpg?w=1800')",
-      }}
+      style={{ backgroundImage: `url('/bg_img.avif')`}}
     >
       <div className="w-full flex justify-center mb-6">
         <AnimatedTitle />

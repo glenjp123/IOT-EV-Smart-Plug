@@ -129,7 +129,7 @@ const Dashboard = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="h-screen bg-gray-900 text-white flex flex-col items-center justify-center bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/futuristic-white-electric-car-charging-sleek-station-minimalist-icy-blue-setting-symbolizing-cuttingedge-ecofriendly-technology-sustainable-energy-innovation_1006475-6212.jpg?w=1800')]"
+      className="h-screen bg-gray-900 text-white flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url('/bg_img.avif')`}}
     >
       <AnimatedTitle />
       {/* <div className="text-2xl text-blue-800 text-center mt-2">Status: {status}</div> */}
